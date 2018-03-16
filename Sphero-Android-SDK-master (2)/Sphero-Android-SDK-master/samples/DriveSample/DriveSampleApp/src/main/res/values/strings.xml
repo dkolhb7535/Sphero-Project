@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveSample</string>
+    <string name="developer_mode">Developer Mode</string>
+    <string name="color">Color</string>
+</resources>

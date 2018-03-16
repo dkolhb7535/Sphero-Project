@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note that the xlmns:app tag is for connecting the puck attirbutes to the joystick view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/entire_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fab"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_bt"
+        android:text="fab"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/user_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt"
+        android:text="user Button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="10dp"
+        android:text="Voice Record" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/go_btn"
+        android:text="" />
+
+    <Button
+        android:id="@+id/go_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="GO" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direction" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/deg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="45˚" />
+
+        <RadioButton
+            android:id="@+id/deg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="90˚" />
+
+        <RadioButton
+            android:id="@+id/deg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="135˚" />
+
+        <RadioButton
+            android:id="@+id/deg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="180˚" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/deg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="225˚" />
+
+        <RadioButton
+            android:id="@+id/deg6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="270˚" />
+
+        <RadioButton
+            android:id="@+id/deg7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="315˚" />
+
+        <RadioButton
+            android:id="@+id/deg8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="360/0" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup2"
+        android:text="@string/color" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="빨강" />
+
+        <RadioButton
+            android:id="@+id/orange"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="주황" />
+
+        <RadioButton
+            android:id="@+id/yellow"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="노랑" />
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="초록" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="파랑" />
+
+        <RadioButton
+            android:id="@+id/plum"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="자두" />
+
+        <RadioButton
+            android:id="@+id/purple"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="보라" />
+
+        <RadioButton
+            android:id="@+id/black"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="검정" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup4"
+        android:layout_weight="1"
+        android:text="Distance_Power" />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/short_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="짧게-약" />
+
+        <RadioButton
+            android:id="@+id/short_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="짧게-중" />
+
+        <RadioButton
+            android:id="@+id/short_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="짧게-강" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/colorPickerButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:text="@string/color_picker_title" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/medium_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="중간-약" />
+
+        <RadioButton
+            android:id="@+id/medium_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="중간-중" />
+
+        <RadioButton
+            android:id="@+id/medium_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="중간-강" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup6"
+        android:layout_weight=".5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/long_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="길게-약" />
+
+        <RadioButton
+            android:id="@+id/long_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="길게-중" />
+
+        <RadioButton
+            android:id="@+id/long_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="길게-강" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/developerModeLayout"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:text="@string/developer_mode" />
+
+        <Switch
+            android:id="@+id/developerModeSwitch"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <com.orbotix.joystick.api.JoystickView
+        android:id="@+id/joystickView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/radioGroup7"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone"
+        app:alpha="0.9"
+        app:edge_overlap="10dp"
+        app:puck_radius="60dp" />
+
+    <com.orbotix.calibration.api.CalibrationImageButtonView
+        android:id="@+id/calibrateButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/bt"
+        android:layout_marginEnd="25dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        app:background_color="#FF1990FF"
+        app:calibration_center_x="30dp"
+        app:calibration_center_y="-30dp"
+        app:calibration_circle_radius="50dp"
+        app:foreground_color="#FFFFFFFF"
+        app:widget_orientation="above" />
+
+    <com.orbotix.calibration.api.CalibrationView
+        android:id="@+id/calibrationView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:twoFingerEnabled="true" />
+
+    <FrameLayout
+        android:id="@+id/fragment_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt2"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/startvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="300dp"
+            android:text="Start Voice" />
+
+        <Button
+            android:id="@+id/stopvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="360dp"
+            android:text="Stop Voice" />
+
+        <Button
+            android:id="@+id/playrecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="410dp"
+            android:text="Play Record" />
+
+        <TextView
+            android:id="@+id/freq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="315dp" />
+
+        <Button
+            android:id="@+id/stoprecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="460dp"
+            android:text="Stop Record" />
+
+        <TextView
+            android:id="@+id/flag_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="375dp" />
+
+        <Button
+            android:id="@+id/startv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="420dp"
+            android:text="권한" />
+    </FrameLayout>
+
+
+    <!-- The joystick view for the application -->
+
+
+    <!-- This needs to be the last element in your xml page if you want two finger calibration to work
+     anywhere in your application's page -->
+
+    <!-- In this case, we want fragments to display over the calibration view -->
+
+</RelativeLayout>

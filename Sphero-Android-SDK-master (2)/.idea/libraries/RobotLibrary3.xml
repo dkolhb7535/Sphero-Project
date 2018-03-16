@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RobotLibrary3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/DriveSampleApp/libs/RobotLibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

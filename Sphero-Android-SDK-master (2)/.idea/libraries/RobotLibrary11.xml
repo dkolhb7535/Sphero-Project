@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RobotLibrary11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/libs/RobotLibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

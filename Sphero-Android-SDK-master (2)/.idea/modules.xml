@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroLoader/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroLoader/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/HelloWorld/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/HelloWorld/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OrbBasicLoader/src/androidTest/androidTest10.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OrbBasicLoader/src/androidTest/androidTest10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/Locator/src/androidTest/androidTest11.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/Locator/src/androidTest/androidTest11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/SpeedSliderLibrary/src/androidTest/androidTest12.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/SpeedSliderLibrary/src/androidTest/androidTest12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/ColorPickerLibrary/src/androidTest/androidTest13.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/ColorPickerLibrary/src/androidTest/androidTest13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalSample/src/androidTest/androidTest14.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalSample/src/androidTest/androidTest14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/SensorStreaming/src/androidTest/androidTest15.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/SensorStreaming/src/androidTest/androidTest15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/androidTest/androidTest2.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/androidTest/androidTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/androidTest/androidTest3.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/androidTest/androidTest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/RobotPickerLibrary/src/androidTest/androidTest4.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/RobotPickerLibrary/src/androidTest/androidTest4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroSample/src/androidTest/androidTest5.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroSample/src/androidTest/androidTest5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/ButtonDrive/src/androidTest/androidTest6.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/ButtonDrive/src/androidTest/androidTest6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/CalibrationLibrary/src/androidTest/androidTest7.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/CalibrationLibrary/src/androidTest/androidTest7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/JoystickLibrary/src/androidTest/androidTest8.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/JoystickLibrary/src/androidTest/androidTest8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/androidTest/androidTest9.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/androidTest/androidTest9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OrbBasicLoader/src/main/main.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OrbBasicLoader/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/SpeedSliderLibrary/src/main/main1.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/SpeedSliderLibrary/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/SensorStreaming/src/main/main10.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/SensorStreaming/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/ColorPickerLibrary/src/main/main11.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/ColorPickerLibrary/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/Locator/src/main/main12.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/Locator/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/main/main13.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroSample/src/main/main14.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroSample/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/CalibrationLibrary/src/main/main15.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/CalibrationLibrary/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/JoystickLibrary/src/main/main16.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/JoystickLibrary/src/main/main16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/main/main2.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/HelloWorld/src/main/main3.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/HelloWorld/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/DriveSampleApp/src/main/main4.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/DriveSampleApp/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalSample/src/main/main5.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalSample/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/ButtonDrive/src/main/main6.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/ButtonDrive/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/RobotPickerLibrary/src/main/main7.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/DriveSample/RobotPickerLibrary/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/main/main8.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroLoader/src/main/main9.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/MacroLoader/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/test/test.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalCollisions/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/test/test1.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalFreeFall/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/test/test2.iml" filepath="$PROJECT_DIR$/Sphero-Android-SDK-master/samples/OvalAccelData/src/test/test2.iml" />
+    </modules>
+  </component>
+</project>

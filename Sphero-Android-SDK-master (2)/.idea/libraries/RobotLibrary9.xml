@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RobotLibrary9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Sphero-Android-SDK-master/samples/SensorStreaming/libs/RobotLibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
